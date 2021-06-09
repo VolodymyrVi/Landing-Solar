@@ -105,6 +105,6 @@ a{
     line-height: 25px;
     margin-bottom: 15px;
 }
-service__img{
+.service__img{
     object-fit: cover;
 }
