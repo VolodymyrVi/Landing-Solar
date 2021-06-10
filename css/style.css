@@ -201,5 +201,32 @@ a{
     font-size: 42px;
     line-height: 57px;
     color: #fff;
-
+}
+.clients-slider__box{
+    display: flex;
+}
+.clients-slider__box-img{
+    flex-basis: 510px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+}
+.clients-slider__box-title{
+    max-width: 478px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.clients-slider__box-list{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.clients-slider__box-item{
+    margin-bottom: 15px;
+}
+.slick-arrow path{
+    transition: fill .5s;
+}
+.slick-arrow:hover path{
+    fill: #A9A32A;
 }
