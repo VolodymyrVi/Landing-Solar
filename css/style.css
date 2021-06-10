@@ -136,6 +136,11 @@ a{
 .info-tabs__items{
     margin-bottom: 120px;
 }
+.info-tabs__item{
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 40px;
+}
 .info-tabs__item--active{
     border-bottom: 1px solid #303030;
 }
@@ -144,4 +149,25 @@ a{
 }
 .info-tabs__content--active{
     display: block;
+}
+.info-slider{
+    max-width: 510px;
+}
+.info-slider__img{
+    margin-right: 40px;
+    float: left;
+}
+.info-slider__text{
+    padding-bottom: 15px;
+}
+
+.slick-arrow{
+    position: absolute;
+    left: 275px;
+    bottom: -3px;
+    z-index: 5;
+    cursor: pointer;
+}
+.slick-right{
+    left: 340px;
 }
